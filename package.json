@@ -1,0 +1,35 @@
+{
+    "name": "lumistry-assets",
+    "version": "1.0.11",
+    "description": "Gradient UI elements for use in React websites.",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "rm -rf dist && NODE_ENV=production babel src/library --out-dir dist --copy-files"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/asdfasdf"
+    },
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "files": [ "dist", "README.md" ],
+    "keywords": [
+      "react",
+      "gradient"
+    ],
+    "author": "Kirk Wetherill",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/asdfasdf"
+    },
+    "homepage": "https://github.com/chelseafarley/react-gradient-ui#readme",
+    "devDependencies": {
+      "@babel/cli": "^7.16.0",
+      "@babel/core": "^7.16.0",
+      "@babel/preset-env": "^7.16.4",
+      "@babel/preset-react": "^7.16.0"
+    },
+    "dependencies": {
+      "@babel/polyfill": "^7.12.1"
+    }
+  }
