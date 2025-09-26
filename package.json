@@ -1,6 +1,6 @@
 {
   "name": "lumistry-assets",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A simple component asset library.",
   "homepage": "https://github.com/kwetherill/lumistry-assets#readme",
   "bugs": {
@@ -13,19 +13,58 @@
   "license": "MIT",
   "author": "Kirk Wetherill",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build-dist": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
     "@storybook/react-vite": "^9.1.8",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "sass-embedded": "^1.93.2",
-    "storybook": "^9.1.8"
+    "storybook": "^9.1.8",
+    "webpack": "^5.65.0"
   },
   "peerDependencies": {
     "react": "^19.1.1",

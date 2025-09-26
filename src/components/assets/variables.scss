@@ -1,0 +1,94 @@
+
+// colors
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-gray-900: #121617;
+$color-gray-800: #343F41;
+$color-gray-700: #4B5B5D;
+$color-gray-600: #5E6F73;
+$color-gray-500: #7A8D92;
+$color-gray-400: #9BAFB9;
+$color-gray-300: #C4D3DA;
+$color-gray-200: #D9E2E7;
+$color-gray-100: #EFF1F3;
+$color-gray-50: #F7F9FA;
+
+$color-action: #0060F0;
+$color-action-dark: #004AB9;
+$color-action-bright: #0094FF;
+
+$color-alt: #00C2FF;
+$color-alt-dark: #004AB9;
+$color-alt-bright: #0094FF;
+
+// spacing
+$spacing-50: 4px;
+$spacing-100: 8px;
+$spacing-200: 16px;
+$spacing-300: 24px;
+$spacing-400: 32px;
+$spacing-500: 40px;
+$spacing-600: 48px;
+
+
+// typography
+$font-size-100: 10px;
+$font-size-200: 12px;
+$font-size-300: 14px;
+$font-size-400: 16px;
+$font-size-500: 18px;
+$font-size-600: 22px;
+$font-size-700: 28px;
+$font-size-800: 36px;
+$font-size-900: 56px;
+
+$line-height-100: 12px;
+$line-height-200: 14px;
+$line-height-300: 16px;
+$line-height-400: 18px;
+$line-height-500: 20px;
+$line-height-600: 24px;
+$line-height-700: 30px;
+$line-height-800: 40px;
+$line-height-900: 58px;
+
+
+// button
+$button-height-small: 32px;
+$button-height-medium: 40px;
+$button-height-large: 48px;
+
+$button-width-100: 40px;
+$button-width-200: 80px;
+$button-width-300: 100px;
+$button-width-400: 120px;
+$button-width-500: 140px;
+$button-width-600: 200px;
+$button-width-700: 260px;
+$button-width-full: 100%;
+
+$button-border-width: 0;
+$button-border-radius: 4px;
+$button-border-radius-alt: 100%;
+
+
+// input size
+$input-height-small: 32px;
+$input-height-medium: 40px;
+$input-height-large: 48px;
+
+$input-width-100: 60px;
+$input-width-200: 80px;
+$input-width-300: 100px;
+$input-width-400: 120px;
+$input-width-500: 140px;
+$input-width-600: 180px;
+$input-width-700: 240px;
+$input-width-800: 380px;
+
+$input-border-radius: 4px;
+$input-border-radius-alt: 100%;
+$input-border-width: 1px;
+$input-border-style: solid;
+
+

@@ -1,5 +1,6 @@
 import React from 'react';
-import Widget from '../components/Widget/Widget';
+// import {Widget} from '../components';
+import {Widget} from '../../dist'
 import '../styles.scss';
 
 export default {
