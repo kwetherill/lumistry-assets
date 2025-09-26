@@ -33,9 +33,14 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react-vite": "^9.1.8",
+    "css-loader": "^7.1.2",
     "prop-types": "^15.8.1",
-    "storybook": "^9.1.8"
+    "sass": "^1.93.2",
+    "sass-loader": "^16.0.5",
+    "storybook": "^9.1.8",
+    "style-loader": "^4.0.0"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1"
